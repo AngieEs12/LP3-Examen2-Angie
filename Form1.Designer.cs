@@ -75,14 +75,14 @@ namespace LP3_Examen2_Angie
             // 
             this.txtbcorreo.Location = new System.Drawing.Point(390, 145);
             this.txtbcorreo.Name = "txtbcorreo";
-            this.txtbcorreo.Size = new System.Drawing.Size(100, 20);
+            this.txtbcorreo.Size = new System.Drawing.Size(207, 20);
             this.txtbcorreo.TabIndex = 3;
             // 
             // txtbcontrasena
             // 
             this.txtbcontrasena.Location = new System.Drawing.Point(390, 193);
             this.txtbcontrasena.Name = "txtbcontrasena";
-            this.txtbcontrasena.Size = new System.Drawing.Size(100, 20);
+            this.txtbcontrasena.Size = new System.Drawing.Size(207, 20);
             this.txtbcontrasena.TabIndex = 4;
             // 
             // btnaceptar
@@ -107,11 +107,13 @@ namespace LP3_Examen2_Angie
             this.btnsalir.TabIndex = 6;
             this.btnsalir.Text = "Salir";
             this.btnsalir.UseVisualStyleBackColor = true;
+            this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
             // 
             // Form1Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnsalir);
             this.Controls.Add(this.btnaceptar);

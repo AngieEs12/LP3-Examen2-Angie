@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace LP3_Examen2_Angie
 {
-    public partial class Menucs : Form
+    public partial class Servicio : Form
     {
-        public Menucs()
+        public Servicio()
         {
             InitializeComponent();
-        }
-
-        private void btnticket_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Ticket  ticketform = new Ticket();
-            ticketform.Show();
         }
     }
 }
