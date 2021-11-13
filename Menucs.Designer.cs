@@ -56,6 +56,7 @@ namespace LP3_Examen2_Angie
             this.btnservicio.TabIndex = 1;
             this.btnservicio.Text = "Servicio";
             this.btnservicio.UseVisualStyleBackColor = false;
+            this.btnservicio.Click += new System.EventHandler(this.btnservicio_Click);
             // 
             // btnticket
             // 

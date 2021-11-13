@@ -20,8 +20,16 @@ namespace LP3_Examen2_Angie
         private void btnticket_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Ticket  ticketform = new Ticket();
+            Tickets  ticketform = new Tickets();
             ticketform.Show();
+        }
+
+        private void btnservicio_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            Servicio servicioForm = new Servicio();
+            servicioForm.Show();
         }
     }
 }

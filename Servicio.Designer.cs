@@ -81,6 +81,7 @@ namespace LP3_Examen2_Angie
             this.btngenerar.TabIndex = 3;
             this.btngenerar.Text = "Generar Ticket";
             this.btngenerar.UseVisualStyleBackColor = true;
+            this.btngenerar.Click += new System.EventHandler(this.btngenerar_Click);
             // 
             // lbldispositivo
             // 
